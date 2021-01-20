@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Currency Conerter</title>
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                <img src="img/currency.png" alt="dollar currency symbol">
+                <div>
+                    <h1>Exchange Calculator</h1>
+                    <p>
+                        Choose the currency and the amounts to get the exchange rate
+                    </p>
+                </div>
+            </div>
+
+            <form id="main-form">
+                <div>
+                    <select class="currency-code">
+                        <option>CAD</option>
+                        <option>USD</option>
+                        <option>EUR</option>
+                        <option>GBP</option>
+                    </select>
+
+                    <button type="button">Swap</button>
+
+                    <select class="currency-code">
+                        <option>CAD</option>
+                        <option>USD</option>
+                        <option>EUR</option>
+                        <option>GBP</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <input id="currency-amt-top"></input>
+                    
+                    <p>Text Here</p>
+                    
+                    <input id="currency-amt-bottom"></input>
+                </div>  
+           </form>
+        </main>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>
